@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Portafolio Profesional</title>
+    <title>Portafolio Profesional | Ángel Santiago</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         #imagen {
@@ -18,24 +18,31 @@
         <p>Desarrollador Web | Backend | Seguridad Informática</p>
     </header>
 
+    <!-- Imagen de perfil oculta, aparece al hacer clic -->
     <button onclick="mostrarImagen()">Mostrar imagen</button>
     <img id="imagen" src="img/profile.jpg" alt="Foto de perfil">
 
+    <!-- Sección Sobre Mí -->
     <section>
         <h2>Sobre mí</h2>
-        <p>Descripción breve sobre experiencia, formación y habilidades.</p>
+        <p>Estudiante en <strong>UCompensar</strong>, especializado en desarrollo web, backend y ciberseguridad.</p>
+        <p>Tengo experiencia en <strong>Django, MySQL, creación de API y despliegue de aplicaciones</strong> en GitHub Pages.</p>
+        <p>Me apasiona la tecnología y la seguridad informática, explorando soluciones eficientes para desarrollo y protección de datos.</p>
     </section>
 
-    <nav>
-        <a href="about.html">Más sobre mí</a>
-        <a href="contact.html">Contáctame</a>
-    </nav>
+    <!-- Sección Contacto -->
+    <section>
+        <h2>Contáctame</h2>
+        <p>Email: tuemail@example.com</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/tuperfil">Perfil Profesional</a></p>
+        <p>GitHub: <a href="https://github.com/Angel321s">Mi repositorio</a></p>
+    </section>
 
     <footer>
-        <p>Conéctame en <a href="https://github.com/tuperfil">GitHub</a></p>
+        <p>&copy; 2025 Ángel Santiago | Portafolio Profesional</p>
     </footer>
 
-    <!-- JavaScript justo antes de cerrar body -->
+    <!-- JavaScript para mostrar imagen -->
     <script>
         function mostrarImagen() {
             document.getElementById('imagen').style.display = 'block';
@@ -43,3 +50,4 @@
     </script>
 </body>
 </html>
+
